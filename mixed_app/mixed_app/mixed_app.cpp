@@ -17,7 +17,18 @@ int main()
 	printf("S = Scan berechnen\n");
 	scanf("%c", &a);
 
-	a == 115 || a == 83 ? fScan() : fKinder();
+	// a == 115 || a == 83 ? fScan() : fKinder();
+
+	if (a == 115 || a == 83) {
+
+		fScan();
+	}
+	
+	else if (a == 75 || a == 107 ) {
+
+		fKinder();
+	
+	}
 
 	
     return 0;

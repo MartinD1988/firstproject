@@ -9,8 +9,6 @@ int main()
 {	
 	schaltjahr();
 
-	
-
-    return 0;
+	return 0;
 }
 
